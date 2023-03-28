@@ -2,8 +2,8 @@
 Enter a list of the locations you have lived, and we will return where you currently live, on average..
 
 ## Purposes
-- learn web development
-- learn google maps 
+- Learn web development
+- Learn google maps 
 
 ## TODOs
-- apply a weighting (time?) to each location 
+- Apply a weighting (time?) to each location 
