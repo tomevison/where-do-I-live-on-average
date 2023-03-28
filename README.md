@@ -1,6 +1,9 @@
 # Where do I live on average?
-enter a list of your current streets, and this website will return the average location.
+Enter a list of the locations you have lived, and we will return where you currently live, on average..
 
 ## Purposes
 - learn web development
 - learn google maps 
+
+## TODOs
+- apply a weighting (time?) to each location 
