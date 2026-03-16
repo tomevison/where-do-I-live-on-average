@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Where do you live on average</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Where do you live on average?</h1>
+  <div id="form">
+    <input type="text" id="location" placeholder="Enter city or address">
+    <input type="number" id="weight" placeholder="Years/Weight" min="1" value="1">
+    <button id="add">Add Location</button>
+    <button id="calculate">Calculate Average</button>
+  </div>
+
+  <ul id="locations"></ul>
+
+  <div id="map" style="height:500px;"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
