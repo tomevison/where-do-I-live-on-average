@@ -88,7 +88,7 @@ calculateBtn.addEventListener('click', async () => {
     iconSize: [32, 32],
     iconAnchor: [16, 32]
   })}).addTo(map)
-    .bindPopup(`<strong>Your average location</strong><br>This is the weighted centroid based on time spent at each location.`)
+    .bindPopup(`<strong>Where you live on average:</strong><br>This is the weighted centroid based on time spent at each location.`)
     .openPopup();
 
   // Adjust map to show all points
