@@ -8,16 +8,40 @@
 </head>
 <body>
   <h1>Where do you live on average?</h1>
-  <div id="form">
-    <input type="text" id="location" placeholder="Enter city or address">
-    <input type="number" id="weight" placeholder="Years/Weight" min="1" value="1">
-    <button id="add">Add Location</button>
-    <button id="calculate">Calculate Average</button>
-  </div>
 
-  <ul id="locations"></ul>
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <p>
+      Enter the cities or addresses you have lived in, along with the number of years spent at each location. 
+      The site calculates a weighted average location based on time spent at each place and shows it on the map.
+      Everything is calculated in your browser – <strong>no addresses are stored or sent to our servers</strong>.
+    </p>
+  </section>
+
+  <section id="input-section">
+    <div id="form">
+      <input type="text" id="location" placeholder="Enter city or address">
+      <label for="weight">Years spent at this location:</label>
+      <input type="number" id="weight" placeholder="Years/Weight" min="1" value="1">
+      <button id="add">Add Location</button>
+      <button id="calculate">Calculate Average</button>
+    </div>
+
+    <ul id="locations"></ul>
+  </section>
 
   <div id="map" style="height:500px;"></div>
+
+  <section id="privacy">
+    <h2>Privacy Notice</h2>
+    <p>
+      All calculations happen in your browser. We do not store or collect any location information. Your addresses never leave your device.
+    </p>
+  </section>
+
+  <footer>
+    <p>Check out the project on <a href="https://github.com/YOUR_USERNAME/where-do-you-live-on-average" target="_blank">GitHub</a></p>
+  </footer>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="main.js"></script>
