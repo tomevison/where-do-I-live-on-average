@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin:20px; }
+#form { margin-bottom:10px; }
+#locations { list-style:none; padding:0; }
+#locations li { margin: 2px 0; }
+input { margin-right:5px; }
